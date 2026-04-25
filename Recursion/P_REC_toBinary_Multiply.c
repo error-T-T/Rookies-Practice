@@ -39,8 +39,8 @@ unsigned int unsigned_multiply(unsigned int x, unsigned int y){
 
 
 int main(){
-    unsigned int x = 5;
-    unsigned int y = 3;
+    unsigned int x = 46;
+    unsigned int y = 73;
     toBinary(x);
     printf(" * ");
     toBinary(y);
@@ -51,3 +51,9 @@ int main(){
 
     return 0;
 }
+
+/*
+output:
+    101110 * 1001001 = 110100011110
+    46 * 73 = 3358
+*/
